@@ -1,0 +1,13 @@
+h3 {
+    margin-left: 12px;
+}
+
+.project_container {
+    display: flex;
+    margin-left: 12px;
+}
+
+.project_label {
+    width: 100px;
+    font-weight: bold;
+}

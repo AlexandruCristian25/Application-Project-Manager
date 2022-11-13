@@ -1,0 +1,63 @@
+table {
+    border: 1px solid black;
+    width: 97%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    border-bottom: 1px solid black;
+    background-color: antiquewhite;
+    font-size: 16px;
+}
+
+.add_container {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.add_form_container {
+	margin-top: 30px;
+    margin-left: 10px;
+	display: none;
+}
+
+.el_container {
+	display: flex;
+	margin-bottom: 8px;
+}
+
+.el_label {
+	width: 80px;
+}
+
+.error_txt {
+	color: red;
+	margin-left:  10px;
+	display: none;
+}
+
+.input_err {
+	border: 1px solid red;
+}
+
+.no_emp_container {
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 25px;
+	display: none;
+}
+
+.saveEditButton {
+	display: none;
+}
+
+.emp_link {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}

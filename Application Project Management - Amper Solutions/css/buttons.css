@@ -1,0 +1,103 @@
+.addEmpButton {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.addEmpButton:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.addEmpButton:active {
+	position:relative;
+	top:1px;
+}
+.addEmpButton:disabled {
+	box-shadow:inset 0px 1px 0px 0px #adadad;
+	background:linear-gradient(to bottom, #bbbebf 5%, #969696 100%);
+	background-color:#bbbebf;
+	border:1px solid #949494;
+	text-shadow:0px 1px 0px #bababa;
+}
+
+.cancelButton {
+	box-shadow:inset 0px 1px 0px 0px #adadad;
+	background:linear-gradient(to bottom, #bbbebf 5%, #969696 100%);
+	background-color:#bbbebf;
+	border-radius:3px;
+	border:1px solid #949494;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #bababa;
+}
+.cancelButton:hover {
+	background:linear-gradient(to bottom, #969696 5%, #bbbebf 100%);
+	background-color:#969696;
+}
+.cancelButton:active {
+	position:relative;
+	top:1px;
+}
+
+.deleteButton {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.deleteButton:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.deleteButton:active {
+	position:relative;
+	top:1px;
+}
+
+.editButton {
+	box-shadow:inset 0px 1px 0px 0px #67f754;
+	background:linear-gradient(to bottom, #06c100 5%, #0ea700 100%);
+	background-color:#2de209;
+	border-radius:3px;
+	border:1px solid #0fd82a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1e8215;
+    margin-right: 7px;
+}
+.editButton:hover {
+	background:linear-gradient(to bottom, #00a700 5%, #00c110 100%);
+	background-color:#00a700;
+}
+.editButton:active {
+	position:relative;
+	top:1px;
+}
